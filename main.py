@@ -130,7 +130,7 @@ def handle_sticker(event):
     ran_sticker = random.choice(my_sticker)
     # Reply Sticker Message
     message=[]
-    message.append(TextSendMessage(text='Thats a nice sticker !'))
+    message.append(TextSendMessage(text='That\'s a nice sticker !'))
     message.append(StickerSendMessage(
             package_id= ran_sticker.packageID,
             sticker_id= ran_sticker.stickerID
