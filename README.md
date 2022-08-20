@@ -2,21 +2,7 @@
 
 ### This is 2022 MVCLab Summer Vacation Training Courses.
 
-## Course Review
 
-### AWS (Amazon Web Server)
-* **Date: 08/09**
-
-### FastAPI
-* **Date: 08/11**
-* **How to run**
-    * **Step 1: Install Python Packages**
-        * > pip install -r requirements.txt
-    * **Step 2: Run by uvicorn (Localhost)**
-        * > uvicorn main:app --reload
-        * Default host = 127.0.0.1, port = 8000
-    * **Step 3: Test your API using Swagger UI**
-        * http://127.0.0.1:8000/docs
 ### LineBot
 * **Date: 08/17**
 * **How to run**
@@ -29,3 +15,17 @@
         * > http://127.0.0.1:4040
     * **Step 2: Run main.py by uvicorn (default localhost:8787)**
         * > python main.py
+
+### Calculator
+* **How to run**
+* Input form: num1 operator num2
+* Whitespace is necessary
+* Example: 
+*          1 + 1
+*          2 * -2
+*          3 - 1 
+*          8 / 2 
+* **Sticker handle** 
+* reply: That's a nice sticker !
+* and a random sticker
+    
